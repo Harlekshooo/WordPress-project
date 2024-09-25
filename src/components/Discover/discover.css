@@ -1,0 +1,194 @@
+
+
+.discoverContainer{
+    padding-top:2rem;
+    padding-bottom:5rem;
+    background-color:#f6f6f6;
+}
+
+.discoverInnerContainer{
+    width:87%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:2.7rem;
+}
+
+.discoverDetailsHeader{
+    font-size:1.6rem;
+    font-family: "EB Garamond", serif;
+    font-weight:300;
+    color:#1e1e1e;
+}
+
+.discoverDetailsParagraph{
+    font-size:1.03rem;
+    line-height:1.6rem;
+    color:#1e1e1e;
+    margin-top:1rem;
+}
+
+.discoverDetailsButton{
+    margin-top:1.3rem;
+    font-size:1rem;
+    font-weight:600;
+    text-transform:capitalize;
+    background-color:#3858e9;
+    color:#fff;
+    height:3.7rem;
+    width:100%;
+    border:none;
+}
+
+.discoverDetailsButton:hover{
+    cursor:pointer;
+    background-color:#5974eb;
+    transition:all linear 0.4s;
+}
+
+.discoverImgContainer{
+    width:100%;
+}
+
+.discoverImg{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .discoverInnerContainer{
+        width:93%;
+    }
+
+    .discoverDetailsHeader{
+        font-size:1.9rem;
+    }
+
+    .discoverDetailsButton{
+        width:40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .discoverInnerContainer{
+        width:93%;
+    }
+
+    .discoverDetailsHeader{
+        font-size:2.2rem;
+    }
+
+    .discoverDetailsButton{
+        width:40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .discoverInnerContainer{
+        width:84%;
+        flex-direction:row;
+        align-items:center;
+    }
+
+    .discoverDetailsContainer{
+        width:50%;
+        padding-top:2rem;
+    }
+
+    .discoverDetailsHeader{
+        font-size:2.2rem;
+    }
+
+    .discoverDetailsParagraph{
+        font-size:1.03rem;
+        line-height:1.6rem;
+        color:#1e1e1e;
+        margin-top:1rem;
+        width:100%;
+    }
+
+    .discoverDetailsButton{
+        width:60%;
+    }
+
+    .discoverImgContainer{
+        width:50%;
+    }
+    
+    .discoverImg{
+        width:100%;
+    }
+}
+
+
+

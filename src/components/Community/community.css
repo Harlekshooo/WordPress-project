@@ -1,0 +1,189 @@
+
+
+.communityContainer{
+    margin-top:4rem;
+}
+
+.communityInnerContainer{
+    width:87%;
+    margin:auto;
+}
+
+.communityMeetContainer{
+    display:flex;
+    flex-direction:column;
+}
+
+.communityMeetHeaderDetails{
+    font-family: "EB Garamond", serif;
+    font-size:1.7rem;
+    font-weight:400;
+    line-height:1.6rem;
+}
+
+.communityMeetParagraphDetails1{
+    width:90%;
+    font-size:1.05rem;
+    margin-top:1.3rem;
+    line-height:1.6rem;
+}
+
+.communityMeetParagraphDetails2{
+    width:90%;
+    font-size:1.05rem;
+    margin-top:1.3rem;
+    line-height:1.6rem;
+}
+
+.communityDetailsMeetLink{
+    display:block;
+    font-size:1.05rem;
+    margin-top:2rem;
+}
+
+.communityMeetImgContainer{
+    width:100%;
+    margin-top:2rem;
+}
+
+.communityMeetImg{
+    width:100%;
+}
+
+.communityBuildContainer{
+    margin-top:6rem;
+}
+
+.communityBuildHeader{
+    font-size:1.15rem;
+    line-height:2rem;
+    width:60%;
+}
+
+.communityBuildParagraph{
+    margin-top:2rem;
+    font-size:1.05rem;
+    line-height:1.7rem;
+}
+
+
+.communityBuildLinkContainer{
+    margin-top:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .communityBuildParagraph{
+        margin-top:1rem;
+    }
+
+    .communityBuildLinkContainer{
+        gap:1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .communityInnerContainer{
+        width:93%;
+        margin:auto;
+    }
+
+    .communityMeetHeaderDetails{
+        font-size:2.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .communityInnerContainer{
+        width:80%;
+        margin:auto;
+    }
+
+    .communityMeetDetails{
+        width:50%;
+    }
+
+    .communityMeetImgContainer{
+        width:40%;
+    }
+
+    .communityMeetContainer{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
+    .communityMeetHeaderDetails{
+        font-size:2.5rem;
+        line-height:3rem;
+    }
+
+    .communityBuildParagraph{
+        width:47%;
+    }
+}
+

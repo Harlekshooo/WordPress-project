@@ -1,0 +1,215 @@
+
+
+.footerContainer{
+    background-color:#23282d;
+}
+
+.footerInnerContainer{
+    padding-top:4rem;
+    padding-bottom:2rem;
+    width:87%;
+    margin:auto;
+}
+
+.footerListSection{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+
+.footerSection{
+    width:45%;
+}
+
+.footerItem{
+    font-size:1.05rem;
+    line-height:2.3rem;
+    list-style:none;
+    color:#fff;
+}
+
+.footerEnding{
+    margin-top:3rem;
+    display:flex;
+    flex-direction:column;
+    gap:1.3rem;
+}
+
+.footerSocialsContainer{
+    display:flex;
+    justify-content:space-between;
+    /* align-items:center; */
+}
+
+.otherFooterSocialsContainer{
+    display:flex;
+    justify-content:space-between;
+    gap:1.5rem;
+    /* align-items:center; */
+}
+
+.footerSocials{
+    display:flex;
+}
+
+.footerSocialsName{
+    display:none;
+    font-family: "EB Garamond", serif;
+    font-weight:600;
+    text-transform:uppercase;
+    color:#fff;
+}
+
+.footerSocialsIcon{
+    color:#fff;
+    font-size:1.5rem;
+}
+
+.footerNote{
+    font-size:1.2rem;
+    font-family: "EB Garamond", serif;
+    text-transform:uppercase;
+    color:#ffffff34;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .footerListSection{
+        flex-direction:row;
+        flex-wrap:wrap;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .footerSection{
+        width:22%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .footerSection{
+        width:21%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .footerInnerContainer{
+        width:85%;
+    }
+
+    .footerSection{
+        width:16%;
+    }
+
+    .footerEnding{
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
+    .footerSocialsContainer{
+        display:flex;
+        justify-content:space-between;
+        width:60%;
+        /* align-items:center; */
+    }
+
+    .footerSocialsName{
+        display:block;
+    }
+}

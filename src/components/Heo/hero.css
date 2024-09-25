@@ -1,0 +1,212 @@
+
+
+.heroContainer{
+    margin-top:0.5rem;
+    padding-bottom:1rem;
+}
+
+.heroInnerContainer{
+    width:87%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.heroDetailsHeader{
+    text-transform:capitalize;
+    font-size:4.2rem;
+    font-weight:300;
+    font-family: "EB Garamond", serif;
+    color:#1e1e1e;
+}
+
+.heroDetailsParagraph{
+    padding-top:1rem;
+    font-size:1.04rem;
+    line-height:1.7rem;
+    color:#1e1e1e;
+}
+
+.heroVideoContainer{
+    margin-top:4rem;
+    border-right:1rem solid #ff4832;
+    border-left:1rem solid #ff4832;  
+}
+
+.innerHeroVideoContainer{
+    width:70%;
+    overflow-wrap:break-word;
+    padding:1.5rem 4rem 1.5rem 2rem;
+}
+
+.reactPlayerContainer{
+    height:3.5rem;
+    width:7rem;
+}
+
+.heroVideoDetail{
+    line-height:2rem;
+    margin-top:2rem;
+    color:#1e1e1e;
+}
+
+.heroVideoLink{
+    color:#1a1919;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .reactPlayerContainer{
+        height:7rem;
+        width:12rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .heroInnerContainer{
+        width:93%;
+    }
+
+    .heroVideoContainer{
+        margin-top:8rem; 
+    }
+
+    .reactPlayerContainer{
+        height:13rem;
+        width:24rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .heroInnerContainer{
+        width:93%;
+    }
+
+    .heroVideoContainer{
+        margin-top:8rem; 
+    }
+
+    .reactPlayerContainer{
+        height:16rem;
+        width:32.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .heroInnerContainer{
+        width:80%;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    .heroDetailsContainer{
+        width:40%;
+    }
+
+    .heroVideoContainer{
+        margin-top:8rem;
+        width:50%; 
+    }
+
+    .reactPlayerContainer{
+        height:8rem;
+        width:14rem;
+    }
+}

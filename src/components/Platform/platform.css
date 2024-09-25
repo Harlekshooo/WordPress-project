@@ -1,0 +1,366 @@
+
+
+.platformContainer{
+    background-color:#1e1e1e;
+}
+
+.platformInnerContainer{
+    padding-top:5rem;
+}
+
+.platformDetailsHeader{
+    font-family: "EB Garamond", serif;
+    font-size:1.9rem;
+    font-weight:400;
+    line-height:2rem;
+    color:#fff;
+    width:87%;
+    margin:auto;
+}
+
+.platformDetailsParagraph{
+    width:87%;
+    margin:auto;
+    font-size:1.05rem;
+    line-height:1.6rem;
+    color:#fff;
+    margin-top:2rem;
+}
+
+.platformLogoContainer{
+    width:87%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    row-gap:1rem;
+    margin-top:2rem;
+}
+
+.platformLogoWrap{
+    width:8rem;
+}
+
+.platformLogoWrap2{
+    width:5.5rem;
+}
+
+.platformLogoWrap3{
+    width:5.5rem;
+}
+
+.platformLogoWrap5{
+    width:5.5rem;
+}
+
+.platformLogo{
+    width:100%;
+}
+
+.platformBtnContainer{
+    width:87%;
+    margin:auto;
+    margin-top:3rem;
+}
+
+.platformBtn{
+    font-size:1rem;
+    font-weight:600;
+    height:3.5rem;
+    width:100%;
+    background-color:#3858e9;
+    color:#fff;
+    border:none;
+}
+
+.platformBtn:hover{
+    cursor:pointer;
+    background-color:#5974eb;
+    transition:all linear 0.4s;
+}
+
+.platformImgRowContainer{
+    margin-top:5rem;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+.platformImgRowWrap{
+    width:100%;
+}
+
+.platformImgRow{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .platformLogoWrap{
+        width:9rem;
+    }
+    
+    .platformLogoWrap2{
+        width:6rem;
+    }
+    
+    .platformLogoWrap3{
+        width:6rem;
+    }
+    
+    .platformLogoWrap5{
+        width:6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .platformLogoWrap{
+        width:10rem;
+    }
+    
+    .platformLogoWrap2{
+        width:7rem;
+    }
+    
+    .platformLogoWrap3{
+        width:7rem;
+    }
+    
+    .platformLogoWrap5{
+        width:7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .platformDetailsHeader{
+        font-size:3rem;
+        line-height:4.5rem;
+        margin-right:0rem;
+        margin-left:1rem;
+        width:93%;
+    }
+
+    .platformDetailsParagraph{
+        width:90%;
+        margin-right:0rem;
+        margin-left:1rem;
+    }
+
+    .platformLogoContainer{
+        width:93%;
+    }
+
+    .platformBtnContainer{
+        width:93%;
+    }
+
+    .platformBtn{
+        width:45%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .platformDetailsHeader{
+        font-size:3rem;
+        line-height:4.5rem;
+        margin-right:0rem;
+        margin-left:1rem;
+        width:93%;
+    }
+
+    .platformDetailsParagraph{
+        width:90%;
+        margin-right:0rem;
+        margin-left:1rem;
+    }
+
+    .platformLogoWrap{
+        width:9rem;
+    }
+    
+    .platformLogoWrap2{
+        width:6rem;
+    }
+    
+    .platformLogoWrap3{
+        width:6rem;
+    }
+    
+    .platformLogoWrap5{
+        width:6rem;
+    }
+
+    .platformBtn{
+        width:45%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .platformDetailsHeader{
+        width:84%;
+        margin:auto;
+    }
+
+    .platformDetailsParagraph{
+        width:40%;
+        margin-top:2rem;
+        margin-right:0rem;
+        margin-left:5rem;
+    }
+
+    .platformLogoContainer{
+        width:84%;
+        margin:auto;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-wrap:wrap;
+        row-gap:1rem;
+        margin-top:2rem;
+    }
+
+    .platformLogoWrap{
+        width:9rem;
+    }
+    
+    .platformLogoWrap2{
+        width:6rem;
+    }
+    
+    .platformLogoWrap3{
+        width:6rem;
+    }
+    
+    .platformLogoWrap5{
+        width:6rem;
+    }
+
+    .platformBtnContainer{
+        width:80%;
+    }
+
+    .platformBtn{
+        width:30%;
+    }
+}
